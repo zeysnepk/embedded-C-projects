@@ -18,8 +18,8 @@ int main(){
 
 
 	int __var; //uninitialized warning
-	__var = __var + 10;
-	printf("\nValue of variable \"__var\" is %d", __var);
+	__var = __var + 100;
+	printf("\nValue of variable \"__var\" is %d\nHex format is %x\nOctal format is %o", __var, __var, __var);
 
 	f__var = localOrGlobal();
 	printf("\n\"f__var\" value is %d", f__var);
